@@ -1,4 +1,4 @@
-baseURL = "https://spyrales.github.io/web/"
+baseURL = "https://spyrales.netlify.com"
 languageCode = "en-us"
 title = "spyrales - site web"
 theme = "airspace"
@@ -11,6 +11,8 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 DefaultContentLanguage = "fr"
+# ignore blogdown files
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 #################################### Plugins ##############################
 
@@ -85,27 +87,29 @@ weight = 6
 
 [[menu.footer]]
 name = "Contact"
-URL = "contact"
+URL = "/contact"
 weight = 6
 
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
+description = "spyrales"
 author = "Themefisher"
 # Contact Information
-mobile = "le plus simple est de vous abonner à Tchap !"
+phone = "il n'y en a pas... le plus simple est de vous abonner à Tchap : www.tchap.gouv.fr !"
 email = "spyrales.publiques (a) gmail.com"
-location = "partout en France"
+location = "partout en France pour ne pas faire de jaloux"
 # contact form action
 contact_form_action = "https://formspree.io/mpzljzge" # contact form works with : https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # Your ID
+# multi-author support (if set to true, you must use an Array in the author field)
+multi_author = true
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 # search
@@ -133,7 +137,7 @@ map_marker = "images/marker.png"
 
 [[params.social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://twitter.com/SpyralesP"
 
 ################################ English Language ########################
 #[Languages.en]
