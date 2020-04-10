@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Découvrez le blog"
-    link : "blog"
+    link : "blog/"
 
 ############################# About #################################
 about:
@@ -56,7 +56,7 @@ cta:
   button:
     enable : true
     label : "À votre écoute"
-    link : "contact"
+    link : "contact/"
 
 ############################# Funfacts ###############################
 funfacts:
@@ -67,7 +67,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-people-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Nombre d'agents impliqués"
-      count : "151"
+      count : "197"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
